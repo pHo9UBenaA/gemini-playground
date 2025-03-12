@@ -1,7 +1,8 @@
 {
   "tasks": {
     "format": "deno fmt",
-    "lint": "deno lint"
+    "lint": "deno lint",
+    "translate": "deno run --allow-env=GEMINI_API_KEY --allow-read=.env,./src/translate --allow-write=./src/translate --allow-net=generativelanguage.googleapis.com:443 src/translate/main.ts"
   },
   "imports": {
     "@google/generative-ai": "npm:@google/generative-ai@^0.24.0",

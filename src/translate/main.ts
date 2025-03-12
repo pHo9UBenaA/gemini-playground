@@ -1,5 +1,3 @@
-// deno run --allow-env=GEMINI_API_KEY --allow-read=.env,./src/translate --allow-write=./src/translate --allow-net=generativelanguage.googleapis.com:443 src/translate/main.ts
-
 /// <reference lib="deno.ns" />
 
 import "@std/dotenv/load";
