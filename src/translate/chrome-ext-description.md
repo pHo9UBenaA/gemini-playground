@@ -1,5 +1,5 @@
 A Chrome extension that helps you efficiently manage browser windows by merging
-multiple windows into one. 
+multiple windows into one.
 
 This extension was previously named 'Merge Window Extension'.
 
