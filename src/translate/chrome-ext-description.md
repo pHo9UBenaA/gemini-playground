@@ -1,6 +1,7 @@
 A Chrome extension that helps you efficiently manage browser windows by merging
-multiple windows into one. (This extension was previously called "Merge Window
-Extension.")
+multiple windows into one. 
+
+This extension was previously named 'Merge Window Extension'.
 
 You can left-click the extension icon or use Control + M (Command + M on Mac)
 to:
