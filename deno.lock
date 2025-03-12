@@ -1,2 +1,23 @@
 {
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/dotenv@~0.225.3": "0.225.3",
+    "npm:@google/generative-ai@0.24": "0.24.0"
+  },
+  "jsr": {
+    "@std/dotenv@0.225.3": {
+      "integrity": "a95e5b812c27b0854c52acbae215856d9cce9d4bbf774d938c51d212711e8d4a"
+    }
+  },
+  "npm": {
+    "@google/generative-ai@0.24.0": {
+      "integrity": "sha512-fnEITCGEB7NdX0BhoYZ/cq/7WPZ1QS5IzJJfC3Tg/OwkvBetMiVJciyaan297OvE4B9Jg1xvo0zIazX/9sGu1Q=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/dotenv@~0.225.3",
+      "npm:@google/generative-ai@0.24"
+    ]
+  }
 }

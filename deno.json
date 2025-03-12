@@ -1,11 +1,12 @@
 {
   "tasks": {
-    "dev": "echo \"deno run --watch main.ts\"",
     "format": "deno fmt",
-    "lint": "deno lint",
-    "executer": "deno --no-lock -A"
+    "lint": "deno lint"
   },
-  "imports": {},
+  "imports": {
+    "@google/generative-ai": "npm:@google/generative-ai@^0.24.0",
+    "@std/dotenv": "jsr:@std/dotenv@^0.225.3"
+  },
   "compilerOptions": {
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "jsx": "react-jsx",
